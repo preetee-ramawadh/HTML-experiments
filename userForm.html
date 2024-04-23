@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>user form</title>
+    <style>
+        input {
+            border: 1px;
+            border-style: solid;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Register A New User Account</h1>
+    <form>
+        <fieldset>
+            <legend>Registration Form</legend>
+            <label>user name: <input type="text" tabindex="1" name="userName" /></label><br />
+            <label for="pwd">password:</label>
+            <input type="password" name="password" id="pwd" tabindex="2"/><br />
+            <label>confirmation: <input type="password" name="confirmPassword" tabindex="3"/></label> <br />
+            How did you hear about us?
+               <label> <input type="radio" name="information" value="organisationEmployee" tabindex="4">our people</label>
+            <label><input type="radio" name="information" value="oganisationSite" tabindex="5">our site</label>
+            <label><input type="radio" name="information" value="digitalMedia" tabindex="6">digital media</label>
+            <label><input type="radio" name="information" value="paperMedia" tabindex="7">newspaper</label>
+            <label>Agree to terms *
+            <input type="checkbox" name="terms" tabindex="8"> </label><br/><br/>
+            <input type="submit" name="submit" tabindex="9"> <input type="submit" name="cancel" value="cancel" tabindex="10" onclick="">
+        </fieldset>
+    </form>
+</body>
+</html>
