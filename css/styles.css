@@ -17,3 +17,12 @@ h3 {
 p{
     font-family: 'Lato';
 }
+
+header {
+    background-color: skyblue;
+}
+
+footer {
+    background-color: lightyellow;
+    position: sticky;
+}
